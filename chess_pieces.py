@@ -6,13 +6,3 @@ class ChessPiece:
         self.direction = direction
         self.shape = shape
         self.count = count
-
-    # Methods to obtain info on chess pieces
-    def obtain_moves(self):
-        return self.moves
-    
-    def obtain_direction(self):
-        return self.direction
-    
-    def obtain_count(self):
-        return self.count

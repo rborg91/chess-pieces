@@ -12,10 +12,10 @@ chess_pieces = [
 def main():
     for piece in chess_pieces:
         print(f"{piece.name}")
-        print(f"Number of spaces that can move: {piece.obtain_moves()}")
-        print(f"Direction of movement: {piece.obtain_direction()}")
+        print(f"Number of spaces that can move: {piece.moves}")
+        print(f"Direction of movement: {piece.direction}")
         print(f"Shape of movement: {piece.shape}")
-        print(f"Number of pieces on the board: {piece.obtain_count()}")
+        print(f"Number of pieces on the board: {piece.count}")
         print()
 
 if __name__ == "__main__":
